@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    overflow: hidden; /* Evita el desplazamiento */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#si {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#no {
+    background-color: #f44336;
+    color: white;
+    position: absolute; /* Cambiado a absoluto para posicionamiento libre */
+}
+
+#mensaje {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #333;
+}
